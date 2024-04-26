@@ -62,7 +62,7 @@ section {
 #dainput label {
   margin-bottom: 5px;
 }
-#dainput select {
+#dainput select, #dainput input {
   font-size: 20px;
   padding: 15px 20px;
   background-color: #743944;
@@ -70,6 +70,10 @@ section {
   border-radius: 15px;
   margin-right: 15px;
   color: #fff;
+}
+#dainput input {
+  padding: 14px 20px;
+  width: 110px;
 }
 #dainput .calculate {
   margin-top: 20px;
@@ -356,7 +360,7 @@ section {
 }
 
 @media (max-width: 767px) {
-  #dainput select {
+  #dainput select, #dainput input {
     font-size: 16px;
   }
   .btn_filter .axis {
