@@ -14,7 +14,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Viaoda+Libre&display=swap" rel="stylesheet">
 
 
-	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/styles.css?ver=2">
 
 	<script src="js/calc.js"></script>
 
@@ -44,7 +44,9 @@
 					<div class="inputWrapper">
 							<label>День</label>
 							<br>
-							<select class="form-input" id="birthdate">
+							<input class="form-input" id="birthdate" type="number" min="1" max="31" step="1" value="1">
+
+							<!-- <select class="form-input" id="birthdate">
 									<option value="01">01</option>
 									<option value="02">02</option>
 									<option value="03">03</option>
@@ -76,14 +78,15 @@
 									<option value="29">29</option>
 									<option value="30">30</option>
 									<option value="31">31</option>
-							</select>
+							</select> -->
 					</div>
 
 					<!-- <input type="number" id="birthmonth" name="damonth" min="01" max="12" placeholder="12"> -->
 					<div class="inputWrapper">
 							<label>Месяц</label>
 							<br>
-							<select class="form-input" id="birthmonth">
+							<input class="form-input" id="birthmonth" type="number" min="1" max="12" step="1" value="1">
+							<!-- <select class="form-input" id="birthmonth">
 									<option value="01">января</option>
 									<option value="02">февраля</option>
 									<option value="03">марта</option>
@@ -96,7 +99,7 @@
 									<option value="10">октября</option>
 									<option value="11">ноября</option>
 									<option value="12">декабря</option>
-							</select>
+							</select> -->
 					</div>
 
 					<!-- <input type="number" id="birthyear" name="dayear" min="0000" max="2030" placeholder="1999"> -->
