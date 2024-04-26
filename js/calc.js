@@ -250,9 +250,9 @@ function calculateSum() {
 
 
 
-		document.getElementById('tresult01').textContent = 'Дата: ' + result01;
-		document.getElementById('tresult02').textContent = 'Месяц: ' + result02;
-		document.getElementById('tresult03').textContent = 'Год: ' + birthyear + ' Сумма года: ' + yearsum + ' Итог суммы: ' + result03;
+		// document.getElementById('tresult01').textContent = 'Дата: ' + result01;
+		// document.getElementById('tresult02').textContent = 'Месяц: ' + result02;
+		// document.getElementById('tresult03').textContent = 'Год: ' + birthyear + ' Сумма года: ' + yearsum + ' Итог суммы: ' + result03;
 		// document.getElementById('tresult04').textContent = '[1]+[2]: ' + result04;
 		// document.getElementById('tresult05').textContent = '[2]+[3]: ' + result05;
 		// document.getElementById('tresult06').textContent = '[4]+[5]: ' + result06;
