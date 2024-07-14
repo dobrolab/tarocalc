@@ -359,9 +359,22 @@ section {
   border: none !important;
 }
 
+.tname {
+  font-size: 18px;
+  padding: 10px 15px;
+  background-color: #743944;
+  border: 1px solid #C7AB77;
+  border-radius: 15px;
+  margin-right: 5px;
+  color: #fff;
+}
+
 @media (max-width: 767px) {
-  #dainput select, #dainput input {
+  #dainput select, #dainput input, .tname {
     font-size: 16px;
+  }
+  .tname {
+    padding: 5px 10px;
   }
   .btn_filter .axis {
     font-size: 14px;
